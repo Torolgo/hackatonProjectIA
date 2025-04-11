@@ -93,9 +93,11 @@ Contributions are welcome! Please follow these steps:
    ```
 5. Open a pull request.
 
-## License
+## Contributors
 
-This project is licensed under the [MIT License](LICENSE).
+- **[Torolgo](https://github.com/Torolgo)**  
+  ![Profile Picture](https://github.com/Torolgo.png?size=100)  
+  Creator and maintainer of the project.
 
 ## Acknowledgments
 
