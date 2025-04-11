@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ÉcoSolutions | Mini-Jeu Écologique</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/game.css">
+    <script src="js/main.js" defer></script>
+    <script src="js/game.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">ÉcoSolutions</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="information.html">Information</a></li>
+                <li><a href="game.html">Mini-Jeu</a></li>
+                <li><a href="credits.html">Crédits</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Récup'Tri : Le Mini-Jeu Écologique</h1>
+            <p>Attrapez les déchets qui tombent et triez-les correctement !</p>
+        </section>
+
+        <section class="game-section">
+            <div class="game-container">
+                <div class="game-info">
+                    <div class="score">Score: <span id="score">0</span></div>
+                    <div class="level">Niveau: <span id="level">1</span></div>
+                    <div class="timer">Temps: <span id="timer">60</span>s</div>
+                </div>
+                <div class="game-area" id="gameArea">
+                    <div class="bin" id="bin"></div>
+                </div>
+                <div class="game-controls">
+                    <button id="startButton" class="game-button">Commencer</button>
+                    <button id="pauseButton" class="game-button" disabled>Pause</button>
+                    <button id="restartButton" class="game-button" disabled>Recommencer</button>
+                </div>
+                <div class="game-instructions">
+                    <h3>Instructions:</h3>
+                    <p>1. Utilisez les flèches gauche et droite (ou touchez l'écran) pour déplacer la poubelle.</p>
+                    <p>2. Attrapez les différents types de déchets qui tombent du ciel.</p>
+                    <p>3. Chaque déchet attrapé rapporte des points, mais attention aux objets non recyclables!</p>
+                    <p>4. Essayez de battre votre meilleur score avant la fin du temps imparti.</p>
+                </div>
+            </div>
+
+            <div class="high-scores">
+                <h3>Meilleurs scores</h3>
+                <ol id="highScoresList">
+                    <li>Joueur 1 - 1250 pts</li>
+                    <li>Joueur 2 - 980 pts</li>
+                    <li>Joueur 3 - 820 pts</li>
+                </ol>
+            </div>
+
+            <div class="eco-facts">
+                <h3>Le saviez-vous ?</h3>
+                <div id="ecoFact" class="eco-fact">
+                    Le recyclage d'une tonne de papier permet de sauver 17 arbres et d'économiser 20 000 litres d'eau !
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">ÉcoSolutions</div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="information.html">Information</a></li>
+                    <li><a href="game.html">Mini-Jeu</a></li>
+                    <li><a href="credits.html">Crédits</a></li>
+                </ul>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-icon">📱</a>
+                <a href="#" class="social-icon">📘</a>
+                <a href="#" class="social-icon">📸</a>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2023 ÉcoSolutions - Tous droits réservés
+        </div>
+    </footer>
+</body>
+</html>
