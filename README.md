@@ -1,6 +1,3 @@
-Here is the updated `README.md` file based on your current project structure:
-
-
 # HackatonProjectIA
 
 HackatonProjectIA is a project combining **Go** and **JavaScript** to deliver a powerful and efficient solution for raising awareness about environmental issues through interactive content and tools.
@@ -104,4 +101,3 @@ Contributions are welcome! Please follow these steps:
 - Built with **Go** and **JavaScript**.
 - Inspired by the need to promote environmental awareness.
 - Special thanks to contributors and open-source libraries used in the project.
-```
